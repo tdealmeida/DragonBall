@@ -1,2 +1,5 @@
-# DragonBall
-Package des sorties d'algorithme de segmentation
+## DragonBall
+
+Le package permet homogénéiser les sorties des différents algorithmes de segmentation.
+
+Pour installer :

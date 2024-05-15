@@ -1,0 +1,11 @@
+Package: DragonBall
+Title: Homogénéisation des algorithmes de segmentation
+Version: 0.0.0.9000
+Authors@R: 
+    person("Thomas", "De Almeida", , "thomas.de_almeida@ens-lyon.fr", role = c("aut", "cre"))
+Description: Package pour homogénéiser des algortihmes de segmentation.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends:    hubr,changepoint,Rbeast,cpm,ecp,ggplot2,cumSeg
