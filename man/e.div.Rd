@@ -20,7 +20,7 @@ e.div(data, sig.lvl = 0.05, R = 199, k = NULL, min.size = 4, alpha = 1)
 \item{alpha}{The significance level for the test of normality.}
 }
 \value{
-A numeric vector containing the detected change points.
+A numeric vector containing the segmentation points.
 }
 \description{
 Change Point Detection using the e.div Algorithm

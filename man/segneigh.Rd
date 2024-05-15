@@ -15,16 +15,16 @@ segneigh(
 \arguments{
 \item{data}{Numeric vector containing the data to segment.}
 
-\item{type_changement}{Le type de changement à détecter. Peut être "mean" pour le changement de moyenne, "var" pour le changement de variance, ou "meanvar" pour les deux.}
+\item{type_changement}{Type of change to detect. Maybe "mean","var" or "meanvar".}
 
-\item{Q}{Le paramètre Q pour le nombre maximal de rupture.}
+\item{Q}{Numeric value for the maximum number of segments.}
 
-\item{penalty}{Le paramètre de pénalité pour l'algorithme PELT.}
+\item{penalty}{Method of penalty. Maybe "Manual" or "BIC" for example.}
 
-\item{pen.value}{La valeur de la pénalité.}
+\item{pen.value}{if penalty is "Manual", this is the value of the penalty.}
 }
 \value{
-Un vecteur contenant les points de changement identifiés.
+A numeric vector containing the segmentation points.
 }
 \description{
 Change Point Detection using segneigh algorithm

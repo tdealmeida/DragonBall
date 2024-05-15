@@ -21,7 +21,7 @@ cpm(
 \item{startup}{Startup parameter for the CPM algorithm.}
 }
 \value{
-A vector containing the detected change points.
+A numeric vector containing the segmentation points.
 }
 \description{
 Change Point Detection using cpm algorithm

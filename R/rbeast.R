@@ -1,6 +1,6 @@
 #' Change Point Detection using rbeast algorithm
 #' @param data Numeric vector containing the data to segment.
-#' @return Un vecteur contenant les points de changement identifiés.
+#' @return A numeric vector containing the segmentation points.
 #' @export
 #' @examples
 #' data <- c(rnorm(40,0,2),rnorm(60,5,2),rnorm(60,1,2),rnorm(40,5,2))

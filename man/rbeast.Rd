@@ -10,7 +10,7 @@ rbeast(data)
 \item{data}{Numeric vector containing the data to segment.}
 }
 \value{
-Un vecteur contenant les points de changement identifiés.
+A numeric vector containing the segmentation points.
 }
 \description{
 Change Point Detection using rbeast algorithm

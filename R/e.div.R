@@ -5,7 +5,7 @@
 #' @param k The number of clusters for the data. If not specified, it will be automatically determined.
 #' @param min.size The minimum size of a segment to be considered as a change point.
 #' @param alpha The significance level for the test of normality.
-#' @return A numeric vector containing the detected change points.
+#' @return A numeric vector containing the segmentation points.
 #' @export
 #' @examples
 #' data <- c(rnorm(40,0,2),rnorm(60,5,2),rnorm(60,1,2),rnorm(40,5,2))

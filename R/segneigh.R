@@ -1,10 +1,10 @@
 #' Change Point Detection using segneigh algorithm
 #' @param data Numeric vector containing the data to segment.
-#' @param type_changement Le type de changement à détecter. Peut être "mean" pour le changement de moyenne, "var" pour le changement de variance, ou "meanvar" pour les deux.
-#' @param Q Le paramètre Q pour le nombre maximal de rupture.
-#' @param penalty Le paramètre de pénalité pour l'algorithme PELT.
-#' @param pen.value La valeur de la pénalité.
-#' @return Un vecteur contenant les points de changement identifiés.
+#' @param type_changement Type of change to detect. Maybe "mean","var" or "meanvar".
+#' @param Q Numeric value for the maximum number of segments.
+#' @param penalty Method of penalty. Maybe "Manual" or "BIC" for example.
+#' @param pen.value if penalty is "Manual", this is the value of the penalty.
+#' @return A numeric vector containing the segmentation points.
 #' @export
 #' @examples
 #' data <- c(rnorm(40,0,2),rnorm(60,5,2),rnorm(60,1,2),rnorm(40,5,2))

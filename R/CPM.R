@@ -3,7 +3,7 @@
 #' @param cpmType Type of CPM algorithm to use.
 #' @param ARL0 ARL0 parameter for the CPM algorithm.
 #' @param startup Startup parameter for the CPM algorithm.
-#' @return A vector containing the detected change points.
+#' @return A numeric vector containing the segmentation points.
 #' @export
 #' @examples
 #' data <- c(rnorm(40,0,2),rnorm(60,5,2),rnorm(60,1,2),rnorm(40,5,2))
